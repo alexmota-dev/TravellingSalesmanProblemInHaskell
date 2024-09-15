@@ -1,0 +1,19 @@
+cabal-version:      3.0
+name:               travelling-salesman-haskell
+version:            0.1.0.0
+synopsis:           A Haskell project for solving the Travelling Salesman Problem.
+description:        A longer description of the package.
+license:            MIT
+license-file:       LICENSE
+author:             Alex Mota
+maintainer:         alexmota.work@gmail.com
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+
+executable travelling-salesman-haskell
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.1
+                     , random
+                     , containers
+    hs-source-dirs:   app
+    default-language: Haskell2010

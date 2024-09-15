@@ -1,0 +1,25 @@
+# Cabal build directory
+/dist/
+
+# Cabal configuration file
+.cabal-sandbox/
+.cabal/
+
+# Build artifacts
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE and editor files
+*.swp
+*.swo
+*.DS_Store
+
+# Haskell Stack files if used
+.stack-work/
